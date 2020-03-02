@@ -32,6 +32,7 @@
 		DD093CDC240D99D8002D4E5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD093CE4240D99F9002D4E5F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		DD093CE6240D9C22002D4E5F /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		DD3E91B5240DA10200EB2D74 /* nativecontactsexample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nativecontactsexample.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 		DD093CC9240D99D7002D4E5F /* nativecontactsexample */ = {
 			isa = PBXGroup;
 			children = (
+				DD3E91B5240DA10200EB2D74 /* nativecontactsexample.entitlements */,
 				DD093CCA240D99D7002D4E5F /* AppDelegate.h */,
 				DD093CCB240D99D7002D4E5F /* AppDelegate.m */,
 				DD093CCD240D99D7002D4E5F /* SceneDelegate.h */,
@@ -303,6 +305,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = nativecontactsexample/nativecontactsexample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = nativecontactsexample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,6 +322,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = nativecontactsexample/nativecontactsexample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = nativecontactsexample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
